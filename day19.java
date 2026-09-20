@@ -1,7 +1,7 @@
 public class day19 {
     public static void main(String[] args){
         
-        double nilaiDouble = 123.45;
+        double nilaiDouble = 150.75;
         float nilaiFloat = (float) nilaiDouble;
         long nilaiLong = (long) nilaiFloat;
         int nilaiInt = (int) nilaiLong;
