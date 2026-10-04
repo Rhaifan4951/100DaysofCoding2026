@@ -11,7 +11,7 @@ public class day33 {
     boolean terdaftar = in.nextBoolean();
         
     System.out.print("\n");    
-        if (nilai >= 80 && terdaftar) {
+        if (nilai >= 75 && terdaftar) {
             System.out.println("Boleh mengikuti ujian");
         } else {
             System.out.println("Belum boleh mengikuti ujian");
