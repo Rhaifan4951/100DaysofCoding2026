@@ -21,7 +21,7 @@ public class day53 {
             System.out.println();
         } while (pilihan.equalsIgnoreCase("y"));
         
-        System.out.println("Pemesenan Selesai");
-        System.out.println("Total pesenan Anda : " + contoh + " menu");
+        System.out.println("Pemesenan Selesai! ");
+        System.out.println("Total pesanan Anda : " + contoh + " menu");
     }
 }
