@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class day53 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        
+        int counter = 0; 
+        String pilihan;
+        
+        do {
+            System.out.print("Masukkan nama menu : ");
+            String menu = in.nextLine();
+            
+            counter++;
+          
+            System.out.println("[Pesanan dicatat...]\n");
+          
+            System.out.print("Pesan lagi (y/t) ? ");
+            pilihan = in.nextLine();
+            
+            System.out.println();
+        } while (pilihan.equalsIgnoreCase("y"));
+        
+        System.out.println("Pemesenan Selesai");
+        System.out.println("Total pesenan Anda : " + contoh + " menu");
+    }
+}
