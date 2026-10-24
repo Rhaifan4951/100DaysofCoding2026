@@ -11,10 +11,10 @@ public class day53 {
             System.out.print("Masukkan nama menu : ");
             String menu = in.nextLine();
             
-            counter++;
           
             System.out.println("[Pesanan dicatat...]\n");
-          
+            counter++;
+            
             System.out.print("Pesan lagi (y/t) ? ");
             pilihan = in.nextLine();
             
