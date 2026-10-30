@@ -4,10 +4,10 @@ public class day59 {
     public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
         
-    int a = in.nextInt();
-    int b = in.nextInt();   
+    int n = in.nextInt();
+    int m = in.nextInt();   
         
-        for (int i = b; i <= a; i+=b) {
+        for (int i = m; i <= n; i+=m) {
             System.out.print(i + " ");
             
         }
