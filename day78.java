@@ -15,20 +15,20 @@ public class day78 {
     System.out.println();    
     System.out.println("=== LOGIN AKUN ===");
         
-    String inputUsername;
-    String inputPassword;
+    String loginUsername;
+    String loginPassword;
     boolean loginBerhasil = false;    
         
         do {
             System.out.print("Masukkan username : ");
-            inputUsername = in.nextLine();
+            loginUsername = in.nextLine();
             
             System.out.print("Masukkan password : ");
-            inputPassword = in.nextLine();
+            loginPassword = in.nextLine();
             
             System.out.println();
             
-            if (inputUsername.equals(username) && inputPassword.equals(password)) {
+            if (loginUsername.equals(username) && loginPassword.equals(password)) {
                 loginBerhasil = true;
                 System.out.println("Selamat, Login Berhasil!");
                 
