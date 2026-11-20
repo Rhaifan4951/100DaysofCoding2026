@@ -1,4 +1,4 @@
-public class Main {
+public class latihan1 {
     public static void main(String[] args) {
         
     int [] angka = {15, 25, 35, 45, 55, 65};
