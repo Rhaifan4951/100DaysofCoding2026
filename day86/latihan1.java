@@ -8,12 +8,12 @@ public class latihan1 {
     int mhs = in.nextInt();
  
     in.nextLine();
-    String[] nama = new String[jumlah];
+    String[] nama = new String[mhs];
 
     System.out.println();
-    for (int i = 0; i < jumlah; i++) {
+    for (int i = 0; i < mhs; i++) {
         System.out.print("Masukkan nama ke-" + (i + 1) + " : ");
-        mhs[i] = in.nextLine();
+        nama[i] = in.nextLine();
             
     }
     System.out.println();
@@ -23,8 +23,8 @@ public class latihan1 {
         
     boolean ditemukan = false;
         
-    for (int i = 0; i < mhs.length; i++) {
-        if (mhs[i].equals(cari)) {
+    for (int i = 0; i < nama.length; i++) {
+        if (nama[i].equals(cari)) {
             ditemukan = true;
             break;
                 
